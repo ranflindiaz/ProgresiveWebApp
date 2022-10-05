@@ -7,7 +7,7 @@ const staticFiles = ["/css/menu.css",
     "/ProgresiveWebApp.styles.css",
     "/lib/jquery/dist/jquery.min.js",
     "/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-    "/js/menu.js", "/"];
+    "/js/menu.js", "/", "/js/generic.js", "/img/loading.gif"];
 
 self.addEventListener("install", event => {
     console.log("Worker Installed");
